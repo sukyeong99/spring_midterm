@@ -42,7 +42,7 @@ public class SubscriptionService {
 	public void listSubscriptions() {
 		// 19번 사용자의 구독 목록
 		List<Subscription> subscriptionList = subscriptionDao
-				.listSubscriptions("19");
+				.listSubscriptions("20");
 		logger.debug(subscriptionList);
 	}
 }
